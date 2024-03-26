@@ -1,0 +1,1 @@
+export const css = (vals: Array<string | null>) => vals.filter(Boolean).join(' ');
